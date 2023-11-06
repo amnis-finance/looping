@@ -1,0 +1,16 @@
+[package]
+name = 'strategy'
+version = '1.0.0'
+
+[addresses]
+strategy = "_"
+
+[dependencies]
+amnis = { local = "../../../amnis" }
+Aries = { local = "../aries" }
+AriesConfig = { local = "../aries-config" }
+Decimal = { local = "../decimal" }
+Liquidswap = { local = "../../liquidswap/liquidswap" }
+LiquidswapRouterV3 = { local = "../../liquidswap/liquidswap-router-v3" }
+Oracle = { local = "../oracle" }
+AptosFramework = { local = "../../../../framework/aptos-framework" }

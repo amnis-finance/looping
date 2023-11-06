@@ -1,0 +1,11 @@
+[package]
+name = 'Aries'
+version = '1.0.0'
+
+[addresses]
+aries = "0xdb495ff915af4ab6cb6a011cb64349b41442068a578e35e25e2fff6990c7c30f"
+
+[dependencies]
+AriesConfig = { local = "../aries-config" }
+Decimal = { local = "../decimal" }
+AptosFramework = { local = "../../../../framework/aptos-framework" }

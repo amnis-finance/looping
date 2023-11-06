@@ -1,0 +1,9 @@
+[package]
+name = 'Oracle'
+version = '1.0.0'
+
+[addresses]
+oracle = "0xdb495ff915af4ab6cb6a011cb64349b41442068a578e35e25e2fff6990c7c30f"
+
+[dependencies]
+Decimal = { local = "../decimal" }
